@@ -1,0 +1,54 @@
+// buttons //
+
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    transition: background-color 1s;
+    
+  }
+
+  .default {
+    background-color: $color-form; 
+      &:hover {
+        background: lighten($color-form, 15%);
+    }
+    
+  }
+  
+  .error {
+    background-color: $color-blockquote;
+    &:hover {
+      background: lighten($color-blockquote, 15%);
+    }
+  }
+  
+  .info {
+    background-color: #927bc1;
+    &:hover {
+      background: lighten(#927bc1, 15%);
+    }
+  }
+  
+  .success {
+    background-color: #63cc82;
+    &:hover {
+      background: lighten(#63cc82, 15%);
+    }
+  }
+  
+  .warning {
+    background-color: #fd7856;
+    &:hover {
+      background: lighten(#fd7856, 15%);
+    }
+  }
+  
